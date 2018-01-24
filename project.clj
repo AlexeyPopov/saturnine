@@ -1,10 +1,10 @@
-(defproject saturnine "0.3-SNAPSHOT" 
+(defproject alexeypopov/saturnine "0.3-SNAPSHOT" 
   :description 
   "Saturnine is a Clojure library to assist in developing server applications
    in a message-passing style.  It is built on top of JBoss Netty, and inherits 
    a number of features from this framework, including trivial configuration in
    blocking or non-blocking modes and SSL/TLS support (with starttls)."
-  :dependencies [[org.clojure/clojure         "1.4.0"]
+  :dependencies [[org.clojure/clojure         "1.9.0"]
                  [org.clojure/tools.logging   "0.2.3"]
                  [org.clojure/data.json       "0.2.0"]
                  [org.jboss.netty/netty       "3.2.7.Final"]
